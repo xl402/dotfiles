@@ -129,4 +129,4 @@ alias pip='pip3'
 readonly SLACK_TOKEN='xoxp-8058205508-1230409180486-1386380322338-78e223b5d0fcf9de762c275432145dc6'
 
 alias slackterm="sudo docker run -ti -e 'SLACK_TOKEN=$SLACK_TOKEN' mego22/slackterm"
-alias ctrl="xmodmap ~/.xmodmap"
+alias xmod="xmodmap ~/.xmodmap"
