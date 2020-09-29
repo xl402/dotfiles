@@ -1,0 +1,6 @@
+alias common='vim ~/dotfiles/configs/.common'
+alias vim='nvim'
+alias refresh='source ~/dotfiles/configs/.common'
+alias dot='cd ~/dotfiles'
+alias py='python3 -m IPython -i --'
+alias pip='pip3'

@@ -24,7 +24,7 @@ let g:rainbow_active = 1
 " ====== NCM2 ======
 " enable ncm2 for all buffers
 " autocmd User Ncm2Plugin
-autocmd BufEnter * call ncm2#enable_for_buffer()
+" autocmd BufEnter * call ncm2#enable_for_buffer()
 set completeopt=noinsert,menuone,noselect
 " ====== /NCM2 ======
 
