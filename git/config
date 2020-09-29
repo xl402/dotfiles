@@ -1,0 +1,15 @@
+[alias]
+    co = checkout
+    br = branch
+    ci = commit -m
+    st = status
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+[core]
+   editor = nvim
+[user]
+	name = Firstname Lastname
+	email = name@seamlessml.com
